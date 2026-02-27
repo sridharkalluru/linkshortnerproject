@@ -1,13 +1,6 @@
 import { SignInButton, SignUpButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
-import {
-  Link2,
-  BarChart3,
-  Zap,
-  Shield,
-  Copy,
-  Globe,
-} from "lucide-react";
+import { Link2, BarChart3, Zap, Shield, Copy, Globe } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const FEATURES = [
@@ -69,11 +62,6 @@ export default function HomePage() {
           <SignUpButton mode="modal">
             <Button size="lg">Get started — it&apos;s free</Button>
           </SignUpButton>
-          <SignInButton mode="modal">
-            <Button size="lg" variant="outline">
-              Sign in
-            </Button>
-          </SignInButton>
         </div>
       </section>
 
@@ -88,7 +76,7 @@ export default function HomePage() {
               key={title}
               className={cn(
                 "flex flex-col gap-3 rounded-xl border border-border bg-card p-6",
-                "transition-colors hover:bg-muted/50"
+                "transition-colors hover:bg-muted/50",
               )}
             >
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
