@@ -1,9 +1,5 @@
 ---
-description: >
-  Rules and guidelines for building UI in the Link Shortener project.
-  Apply these instructions whenever creating, editing, or reviewing any
-  visual component, layout, form, dialog, button, input, or other UI element.
-applyTo: "app/**,components/**"
+description: Rules and guidelines for building UI in the Link Shortener project.Apply these instructions whenever creating, editing, or reviewing any visual component, layout, form, dialog, button, input, or other UI element.
 ---
 
 # UI Components — shadcn/ui

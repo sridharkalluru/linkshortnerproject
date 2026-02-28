@@ -1,9 +1,5 @@
 ---
-description: >
-  Rules and guidelines for authentication in the Link Shortener project.
-  Apply these instructions whenever working on auth, route protection,
-  redirects, sign-in/sign-up flows, or any Clerk-related code.
-applyTo: "app/**,middleware.ts,components/**"
+description: Rules and guidelines for authentication in the Link Shortener project.Apply these instructions whenever working on auth, route protection,  redirects, sign-in/sign-up flows, or any Clerk-related code.
 ---
 
 # Authentication — Clerk
