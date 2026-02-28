@@ -1,6 +1,6 @@
 import { SignInButton, SignUpButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
-import { Link2, BarChart3, Zap, Shield, Copy, Globe } from "lucide-react";
+import { Link2, Zap, Shield, Copy, Globe } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const FEATURES = [
@@ -15,12 +15,6 @@ const FEATURES = [
     title: "One-Click Copy",
     description:
       "Copy your shortened link to the clipboard instantly — no fuss, no friction.",
-  },
-  {
-    icon: BarChart3,
-    title: "Click Analytics",
-    description:
-      "Track how many times each link has been clicked and monitor engagement over time.",
   },
   {
     icon: Zap,
@@ -55,8 +49,8 @@ export default function HomePage() {
           Short links, big impact
         </h1>
         <p className="max-w-xl text-lg leading-relaxed text-muted-foreground">
-          Turn long, cluttered URLs into clean, memorable links. Track clicks,
-          manage all your links in one place, and share with confidence.
+          Turn long, cluttered URLs into clean, memorable links. Manage all your
+          links in one place, and share with confidence.
         </p>
         <div className="flex flex-col gap-3 sm:flex-row">
           <SignUpButton mode="modal">
